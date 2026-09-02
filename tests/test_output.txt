@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.9, pytest-8.3.4, pluggy-1.5.0 -- /Users/lorenzogalli/.pyenv/versions/3.12.9/envs/lewagon/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/lorenzogalli/code/lrnzgll/07-Intro-to-ML-Ops/03-Front-end-and-data-in-the-cloud/data-streamlit-local/tests
+configfile: pytest_kitt.ini
+plugins: anyio-4.8.0, langsmith-0.10.10, typeguard-4.4.2
+collecting ... collected 3 items
+
+tests/test_streamlit_app.py::TestStreamlitApp::test_streamlit_is_running PASSED [ 33%]
+tests/test_streamlit_app.py::TestStreamlitApp::test_app_calls_api_with_requests PASSED [ 66%]
+tests/test_streamlit_app.py::TestStreamlitApp::test_scikit_learn_not_in_dependencies PASSED [100%]
+
+============================== 3 passed in 0.02s ===============================
